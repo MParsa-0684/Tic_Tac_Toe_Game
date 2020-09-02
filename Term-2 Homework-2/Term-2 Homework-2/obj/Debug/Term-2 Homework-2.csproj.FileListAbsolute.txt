@@ -1,0 +1,22 @@
+C:\Users\mparsa\Desktop\Programming Term-1\Term-2 Homework-2\Term-2 Homework-2\bin\Debug\Term-2 Homework-2.exe.config
+C:\Users\mparsa\Desktop\Programming Term-1\Term-2 Homework-2\Term-2 Homework-2\bin\Debug\Term-2 Homework-2.exe
+C:\Users\mparsa\Desktop\Programming Term-1\Term-2 Homework-2\Term-2 Homework-2\bin\Debug\Term-2 Homework-2.pdb
+C:\Users\mparsa\Desktop\Programming Term-1\Term-2 Homework-2\Term-2 Homework-2\obj\Debug\Term-2 Homework-2.csprojResolveAssemblyReference.cache
+C:\Users\mparsa\Desktop\Programming Term-1\Term-2 Homework-2\Term-2 Homework-2\obj\Debug\Term_2_Homework_2.Form1.resources
+C:\Users\mparsa\Desktop\Programming Term-1\Term-2 Homework-2\Term-2 Homework-2\obj\Debug\Term_2_Homework_2.Properties.Resources.resources
+C:\Users\mparsa\Desktop\Programming Term-1\Term-2 Homework-2\Term-2 Homework-2\obj\Debug\Term-2 Homework-2.csproj.GenerateResource.Cache
+C:\Users\mparsa\Desktop\Programming Term-1\Term-2 Homework-2\Term-2 Homework-2\obj\Debug\Term-2 Homework-2.exe
+C:\Users\mparsa\Desktop\Programming Term-1\Term-2 Homework-2\Term-2 Homework-2\obj\Debug\Term-2 Homework-2.pdb
+C:\Users\mparsa\Desktop\Programming Term-2\Term-2 Homework-2\Term-2 Homework-2\bin\Debug\Term-2 Homework-2.exe.config
+C:\Users\mparsa\Desktop\Programming Term-2\Term-2 Homework-2\Term-2 Homework-2\obj\Debug\Term-2 Homework-2.exe
+C:\Users\mparsa\Desktop\Programming Term-2\Term-2 Homework-2\Term-2 Homework-2\obj\Debug\Term-2 Homework-2.pdb
+C:\Users\mparsa\Desktop\Programming Term-2\Term-2 Homework-2\Term-2 Homework-2\bin\Debug\Term-2 Homework-2.exe
+C:\Users\mparsa\Desktop\Programming Term-2\Term-2 Homework-2\Term-2 Homework-2\bin\Debug\Term-2 Homework-2.pdb
+C:\Users\mparsa\Desktop\Programming Term-2\Term-2 Homework-2\Term-2 Homework-2\obj\Debug\Term-2 Homework-2.csprojResolveAssemblyReference.cache
+C:\Users\mparsa\Desktop\Programming Term-2\Term-2 Homework-2\Term-2 Homework-2\obj\Debug\Term_2_Homework_2.Form1.resources
+C:\Users\mparsa\Desktop\Programming Term-2\Term-2 Homework-2\Term-2 Homework-2\obj\Debug\Term_2_Homework_2.Properties.Resources.resources
+C:\Users\mparsa\Desktop\Programming Term-2\Term-2 Homework-2\Term-2 Homework-2\obj\Debug\Term-2 Homework-2.csproj.GenerateResource.Cache
+C:\Users\mparsa\Desktop\Programming Term-2\Term-2 Homework-2\Term-2 Homework-2\obj\Debug\Term_2_Homework_2.Form2.resources
+C:\Users\Parsa Arani\Programming Term-2\Term-2 Homework-2\Term-2 Homework-2\bin\Debug\Term-2 Homework-2.exe.config
+C:\Users\Parsa Arani\Programming Term-2\Term-2 Homework-2\Term-2 Homework-2\obj\Debug\Term-2 Homework-2.exe
+C:\Users\Parsa Arani\Programming Term-2\Term-2 Homework-2\Term-2 Homework-2\obj\Debug\Term-2 Homework-2.pdb

@@ -1,0 +1,498 @@
+            turn = Convert.ToInt32(label1.Text);
+            turn = turn + 1;
+            label1.Text = turn.ToString();
+
+            Random rnd = new Random();
+            while (counter < 10)
+            {
+                enable = rnd.Next(1, 10);
+                if (enable == 1 && a1.Enabled == true)
+                {
+                    if (turn % 2 == 0)
+                    {
+
+                        a1.Text = "X";
+                        a1.BackColor = Color.DarkRed;
+                    }
+                    if (turn % 2 == 1)
+                    {
+                        a1.Text = "O";
+                        a1.BackColor = Color.DarkGreen;
+                    }
+                    a1.Enabled = false;
+                    One = 0;
+                    if (a1.Text == a2.Text && a2.Text == a3.Text)
+                    {
+                        if (a1.Text == "X")
+                        {
+
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+
+                        }
+                        if (a1.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+                    }
+                    if (a1.Text == b1.Text && b1.Text == c1.Text)
+                    {
+                        if (a1.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (a1.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+                    if (a1.Text == b2.Text && b2.Text == c3.Text)
+                    {
+                        if (a1.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (a1.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+                    break;
+
+
+                }
+                if (enable == 2 && a2.Enabled == true)
+                {
+                    if (turn % 2 == 0)
+                    {
+
+                        a2.Text = "X";
+                        a2.BackColor = Color.DarkRed;
+                    }
+                    if (turn % 2 == 1)
+                    {
+                        a2.Text = "O";
+                        a2.BackColor = Color.DarkGreen;
+                    }
+                    a2.Enabled = false;
+                    Two = 0;
+                    if (a1.Text == a2.Text && a2.Text == a3.Text)
+                    {
+                        if (a2.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (a2.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+                    if (a2.Text == b2.Text && b2.Text == c2.Text)
+                    {
+                        if (a2.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (a2.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+
+                    break;
+
+                }
+                if (enable == 3 && a3.Enabled == true)
+                {
+                    if (turn % 2 == 0)
+                    {
+
+                        a3.Text = "X";
+                        a3.BackColor = Color.DarkRed;
+                    }
+                    if (turn % 2 == 1)
+                    {
+                        a3.Text = "O";
+                        a3.BackColor = Color.DarkGreen;
+                    }
+                    a3.Enabled = false;
+                    Three = 0;
+                    if (a1.Text == a2.Text && a2.Text == a3.Text)
+                    {
+                        if (a3.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (a3.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+                    if (a3.Text == b3.Text && b3.Text == c3.Text)
+                    {
+                        if (a3.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (a3.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+                    if (a3.Text == b2.Text && b2.Text == c1.Text)
+                    {
+                        if (a3.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (a3.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+
+                    break;
+                }
+                if (enable == 4 && b1.Enabled == true)
+                {
+                    if (turn % 2 == 0)
+                    {
+
+                        b1.Text = "X";
+                        b1.BackColor = Color.DarkRed;
+                    }
+                    if (turn % 2 == 1)
+                    {
+                        b1.Text = "O";
+                        b1.BackColor = Color.DarkGreen;
+                    }
+                    b1.Enabled = false;
+                    Four = 0;
+                    if (b1.Text == b2.Text && b2.Text == b3.Text)
+                    {
+                        if (b1.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (b1.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+                    if (a1.Text == b1.Text && b1.Text == c1.Text)
+                    {
+                        if (b1.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (b1.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+
+                    break;
+                }
+
+                if (enable == 5 && b2.Enabled == true)
+                {
+                    if (turn % 2 == 0)
+                    {
+
+                        b2.Text = "X";
+                        b2.BackColor = Color.DarkRed;
+                    }
+                    if (turn % 2 == 1)
+                    {
+                        b2.Text = "O";
+                        b2.BackColor = Color.DarkGreen;
+                    }
+                    b2.Enabled = false;
+                    Five = 0;
+                    if (a1.Text == b2.Text && b2.Text == c3.Text)
+                    {
+                        if (b2.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (b2.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+                    if (a2.Text == b2.Text && b2.Text == c2.Text)
+                    {
+                        if (b2.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (b2.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+                    if (a3.Text == b2.Text && b2.Text == c1.Text)
+                    {
+                        if (b2.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (b2.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+                    if (b3.Text == b2.Text && b2.Text == b1.Text)
+                    {
+                        if (b2.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (b2.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+
+                    break;
+                }
+                if (enable == 6 && b3.Enabled == true)
+                {
+                    if (turn % 2 == 0)
+                    {
+
+                        b3.Text = "X";
+                        b3.BackColor = Color.DarkRed;
+                    }
+                    if (turn % 2 == 1)
+                    {
+                        b3.Text = "O";
+                        b3.BackColor = Color.DarkGreen;
+                    }
+                    b3.Enabled = false;
+                    Six = 0;
+                    if (a3.Text == b3.Text && b3.Text == c3.Text)
+                    {
+                        if (b3.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (b3.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+                    if (b1.Text == b2.Text && b2.Text == b3.Text)
+                    {
+                        if (b3.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (b3.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+
+                    break;
+                }
+
+
+                if (enable == 7 && c1.Enabled == true)
+                {
+                    if (turn % 2 == 0)
+                    {
+
+                        c1.Text = "X";
+                        c1.BackColor = Color.DarkRed;
+                    }
+                    if (turn % 2 == 1)
+                    {
+                        c1.Text = "O";
+                        c1.BackColor = Color.DarkGreen;
+                    }
+                    c1.Enabled = false;
+                    Seven = 0;
+                    if (a1.Text == b1.Text && b1.Text == c1.Text)
+                    {
+                        if (c1.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (c1.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+                    if (c1.Text == b2.Text && b2.Text == a3.Text)
+                    {
+                        if (c1.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (c1.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+                    if (c1.Text == c2.Text && c2.Text == c3.Text)
+                    {
+                        if (c1.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (c1.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+
+                    break;
+                }
+
+                if (enable == 8 && c2.Enabled == true)
+                {
+                    if (turn % 2 == 0)
+                    {
+
+                        c2.Text = "X";
+                        c2.BackColor = Color.DarkRed;
+                    }
+                    if (turn % 2 == 1)
+                    {
+                        c2.Text = "O";
+                        c2.BackColor = Color.DarkGreen;
+                    }
+                    c2.Enabled = false;
+                    Eight = 0;
+                    if (a2.Text == b2.Text && b2.Text == c2.Text)
+                    {
+                        if (c2.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (c2.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+                    if (c1.Text == c2.Text && c2.Text == c3.Text)
+                    {
+                        if (c2.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (c2.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+
+                    break;
+                }
+
+		                if (enable == 9 && c3.Enabled == true)
+                {
+                    if (turn % 2 == 0)
+                    {
+
+                        c3.Text = "X";
+                        c3.BackColor = Color.DarkRed;
+                    }
+                    if (turn % 2 == 1)
+                    {
+                        c3.Text = "O";
+                        c3.BackColor = Color.DarkGreen;
+                    }
+                    c3.Enabled = false;
+                    Nine = 0;
+                    if (a3.Text == b3.Text && b3.Text == c3.Text)
+                    {
+                        if (c3.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (c3.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+                    if (a1.Text == b2.Text && b2.Text == c3.Text)
+                    {
+                        if (c3.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (c3.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+                    if (a1.Text == c2.Text && c2.Text == c3.Text)
+                    {
+                        if (c3.Text == "X")
+                        {
+                            MessageBox.Show("  You won " + label5.Text, "Congratulations");
+                        }
+                        if (c3.Text == "O")
+                        {
+                            MessageBox.Show("  You won " + textBox2.Text, "Congratulations");
+
+                        }
+
+                    }
+
+                    break;
+                }
+
+
+
+
+
+                counter++;
+
+            }
